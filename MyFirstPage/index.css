@@ -1,6 +1,6 @@
 /*整体网页*/
 body {
-  background-image: url(/images/backgroundImage2.jpg);
+  background-image: url(./images/backgroundImage2.jpg);
   border: 1px solid;
   padding: 10px;
   display: flex;
