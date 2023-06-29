@@ -1,0 +1,49 @@
+/*整体网页*/
+body {
+  background-image: url(/images/backgroundImage2.jpg);
+  border: 1px solid;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(192, 226, 138, 0.785);
+}
+/*页面主标题栏*/
+h1 {
+  margin: 5px;
+  padding: 15px;
+}
+/*页面二级标题*/
+h2 {
+  margin: 0px;
+  padding: 10px;
+}
+h3 {
+  padding: 10px;
+}
+input {
+  background-color: bisque;
+}
+/*备忘栏整体*/
+.memoContent {
+  margin: 5px;
+  border: 1px solid;
+  padding: 15px;
+}
+/*标签栏整体*/
+.wholeTagsContent {
+  margin: 5px;
+  border: 1px solid;
+  padding: 15px;
+}
+/*标签栏主体*/
+.tagsMainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*标签栏单体*/
+.tagsContent {
+  display: flex;
+  flex-direction: column;
+}
